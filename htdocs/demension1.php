@@ -18,5 +18,9 @@ $data = [
     ];
 
 print $data[1]['name'];
+echo "<br/>";
+$data1 = [-10 => '山田','杉原'];
+print_r($data1);
+
 
 ?>

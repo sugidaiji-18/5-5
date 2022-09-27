@@ -13,7 +13,18 @@
     $data[] = '田中';
 
     print_r($data);
+    $i = 'Z';
+    print ++$i;
+    print++ &i;
+    
     ?>
+    <br/>
+    <?php
+    $j = 'T8';
+    print ++$j;
+    print ++$j;
+    ?>
+
     
 </body>
 </html>

@@ -7,25 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <pre>
     <?php
-    $data = ['山田','掛谷','日置','本田','矢吹'];
-    $data[] = '田中';
-
-    print_r($data);
-    $i = 'Z';
-    print ++$i;
-    print++ $i;
-    
-    ?>
-    <br/>
-    <?php
-    $j = 'T8';
-    print ++$j;
-    print ++$j;
+    print floor((0.1 + 0.7) * 10);
+    echo "<br/>";
+    $add = bcadd(0.1, 0.7, 1);
+    $mul = bcmul($add, 10, 1);
+    print floor($mul);
     ?>
 
     
 </body>
 </html>
-
